@@ -1,0 +1,110 @@
+.gradient-background{
+  background: linear-gradient(300deg, green, brown );
+  background-size: 180% 180%;
+  opacity: 80%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation{
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@media( min-width 676px) (max-width 1000px ){
+
+}
+#feature> div > div> div> h2{
+  color: rgb(53, 148, 96);
+}
+.emma{
+text-align: center;
+font:  italic 1.2rem "Fira Sans", serif;
+color:rgb(185, 176, 51);
+
+}
+.emma> h1{
+  font-size: 3rem;
+}
+
+#title{
+  font: italic 1.2rem "Fira Sans", serif;
+}
+
+
+#title> div> img{
+  margin-left: 100px;
+}
+.container{
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr   2fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 40px;
+    max-width: 600px;
+    align-self: center;
+    margin-left:185px;
+}
+.grid-container>  div >h3{
+color: rgb(53, 148, 96);
+}
+#Skill >h2{
+font-size: 2rem;
+text-align: center;
+color: rgb(53, 148, 96);
+}
+  .eminent{
+    height: 200px;
+    border-radius: 50%;
+  }
+
+#about {
+    text-align: center;
+    
+    
+  }
+.about >div{
+    display: grid;
+    max-width: 50%;
+margin-left: 140px;
+text-align: center;
+
+
+}
+
+.about> h2 {
+    color:rgb(209, 96, 96);
+    opacity: 80%;
+}
+.about > h4{
+color: rgb(209, 96, 96) ;
+opacity: 80%;
+}
+
+    
+.btn{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  background-color: rgb(109, 201, 109) !important;
+  font-size: 50px;
+  font-weight: 400;
+  width: 230px;
+  height: 70px;
+  margin-left: 34%;
+  
+}
+{
+  color: darkblue;
+}
